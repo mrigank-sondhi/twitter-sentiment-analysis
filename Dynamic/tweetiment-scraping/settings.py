@@ -1,0 +1,5 @@
+TRACK_WORDS = "facebook"
+TABLE_NAME = "facebook"
+TABLE_ATTRIBUTES = "tweet_id VARCHAR(255), created_at TIMESTAMP, text VARCHAR(1000), polarity INTEGER, subjectivity INTEGER, user_created_at TIMESTAMP, user_location VARCHAR(255), user_description VARCHAR(255), user_followers_count INTEGER, longitude DOUBLE PRECISION, latitude DOUBLE PRECISION, retweet_count INTEGER, like_count INTEGER"
+TABLE_NAME_1 = "summary"
+TABLE_ATTRIBUTES_1 = "daily_tweets_num BIGINT, impressions BIGINT"

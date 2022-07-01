@@ -1,0 +1,2 @@
+worker: python scraping.py
+web: python --port=$PORT scraping_server.py
